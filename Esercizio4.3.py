@@ -1,21 +1,13 @@
-# Creare un piccolo gioco interattivo in cui si chiede
-# all’utente di indovinare un numero tra 1 e 100.
-# Ogni qualvolta l’utente inserirà un numero si
-# comunicherà se il numero è “troppo grande” o
-# “troppo piccolo” rispetto al numero sa indovinare
-
-numero_esatto = 28
-while True:
-    numero = input('indovina un numero intero tra 1 e 100: ')
-    numero = int(numero)
-
-    if 1 <= numero <= 100:
-        if numero > numero_esatto:
-            print('Il numero ' + str(numero) + ' è troppo grande ')
-        elif numero < numero_esatto:
-            print('Il numero ' + str(numero) + ' è troppo piccolo ')
-        else:
-            print('Il numero ' + str(numero) + ' è esatto. HAI INDOVINATO ')
-            break;
-    else:
-        print('numero non ammesso.')
+tuo_nome = input('Inserisci il tuo nome: ')
+tua_eta = input('Inserisci la tua età: ')
+password = 'Password_sicura'
+maggiorenne_minorenne = 'maggiorenne'
+if int(tua_eta) < 18:
+    print('Ciao ' + tuo_nome + ', non puoi accedere perché minorenne')
+else:
+    print('Ciao ' + tuo_nome + ' benvenuto.')
+    tua_password = input('Inserisci la tua password: ')
+    messaggio = 'Password non corretta'
+    if tua_password == password:
+        messaggio = 'Ciao ' + tuo_nome
+    print(messaggio)

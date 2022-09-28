@@ -1,59 +1,29 @@
-# Realizzare il classico gioco “morra cinese”.
-# Chiedere all’utente se uno dei due giocatori deve essere il
-# computer o un altro giocatore umano ed implementare le due
-# versioni
+# Creare una lista ed una tupla
+# contare gli elementi contenuti in ambedue.
+# Convertire la lista in tupla e la tupla in lista
 
-from random import randrange
+# Creo una lista
+lista_voti = [24, 22, 30, 18, 25]
 
-def morra(mossa1, mossa2):
-    risultato = -1
-    if mossa1 == mossa2 and (mossa1 == 1 or mossa1 == 2 or mossa1 == 3):
-        risultato = 0
-    elif (mossa1 == 1 and mossa2 == 2) or (mossa1 == 2 and mossa2 == 3) or (mossa1 == 3 and mossa2 == 1):
-        risultato = 2
-    elif (mossa2 == 1 and mossa1 == 2) or (mossa2 == 2 and mossa1 == 3) or (mossa2 == 3 and mossa1 == 1):
-        risultato = 1
-    return risultato
+lista_voti.append(28)
 
+# Creo una tupla
+tupla_voti = (24, 22, 30, 18, 25)
 
-# inizializzo numero_giocatori
-numero_giocatori = 0
-# Chiedere numero giocatori
-try:
-    numero_giocatori = int(input('Inserisci il numero di giorcatori (1 o 2): '))
-except:
-    print("Numero giocatori non valido")
+# Conto gli elementi della lista
+print('Numero di elementi della lista voti: ' + str(len(lista_voti)))
 
-mossa_giocatore1 = 0
-mossa_giocatore2 = 0
+# Conto gli elementi della tupla
+print('Numero di elementi della tupla voti: ' + str(len(tupla_voti)))
 
-if numero_giocatori == 2:
-    try:
-        print('Fate le vostre giocate (1: Carta, 2: Forbice, 3: Sasso')
-        mossa_giocatore1 = int(input('Giocatore 1: '))
-        mossa_giocatore2 = int(input('Giocatore 2: '))
-    except:
-        print("Gioocata non valida")
-else:
-    try:
-        print('Fai la tua giocata (1: Carta, 2: Forbice, 3: Sasso')
-        mossa_giocatore1 = int(input('Giocatore 1: '))
-    except:
-        print("Giocata non valida")
+# converto la lista_voti in una tupla
+tupla_lista_voti = tuple(lista_voti)
 
-    # random da 1 a 3
-    mossa_giocatore2 = randrange(1, 4)
+# converto la tupla_voti in una lista
+lista_tupla_voti = list(tupla_voti)
 
-tupla_morra = ('Carta', 'Forbice', 'Sasso')
+# effettuo una operazione di lista sulla lista ottenuta dalla tupla
+lista_tupla_voti.pop(1)
 
-morra = morra(mossa_giocatore1, mossa_giocatore2)
-if morra == 0:
-    print('PAREGGIO. Entrambi avete giocato: ', tupla_morra[mossa_giocatore1 - 1])
-elif morra == 1:
-    print('VINCE GIOCATORE 1.', tupla_morra[mossa_giocatore1 - 1], 'batte', tupla_morra[mossa_giocatore2 - 1])
-elif morra == 2 and numero_giocatori == 2:
-    print('VINCE GIOCATORE 2.', tupla_morra[mossa_giocatore2 - 1], 'batte', tupla_morra[mossa_giocatore1 - 1])
-elif morra == 2:
-    print('VINCE IL COMPUTER.', tupla_morra[mossa_giocatore2 - 1], 'batte', tupla_morra[mossa_giocatore1 - 1])
-else:
-    print('GIOCATA NON VALIDA.')
+# Stampo la nuova lista
+print('nuova lista: ' + str(lista_tupla_voti))
