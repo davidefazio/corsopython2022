@@ -6,13 +6,18 @@
 
 def operazione(valore1, valore2, operatore):
     risultato = 0
-    if operatore == '+' or operatore == 'somma' or operatore == 'addizione':
+    operatori_somma = ('+', 'somma', 'addizione')
+    operatori_sottrazione = ('-', 'sottrai', 'sottrazione')
+    operatori_moltiplicazione = ('x', '*', 'moltiplica', 'moltiplicazione')
+    operatori_divisione = (':', '/', 'dividi', 'divisione')
+
+    if operatore in operatori_somma:
         risultato = somma(valore1, valore2)
-    elif operatore == '-' or operatore == 'sottrai' or operatore == 'sottrazione':
+    elif operatore in operatori_sottrazione:
         risultato = sottrai(valore1, valore2)
-    elif operatore == 'x' or operatore == '*' or operatore == 'moltiplica' or operatore == 'moltiplicazione':
+    elif operatore in operatori_moltiplicazione:
         risultato = moltiplica(valore1, valore2)
-    elif operatore == ':' or operatore == '/' or operatore == 'dividi' or operatore == 'divisione':
+    elif operatore in operatori_divisione:
         risultato = dividi(valore1, valore2)
     return risultato
 

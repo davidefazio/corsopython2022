@@ -16,6 +16,6 @@ while True:
             print('Il numero ' + str(numero) + ' è troppo piccolo ')
         else:
             print('Il numero ' + str(numero) + ' è esatto. HAI INDOVINATO ')
-            break;
+            break
     else:
         print('numero non ammesso.')

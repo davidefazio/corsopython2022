@@ -5,10 +5,9 @@
 
 import os
 
-lista_persone = {'Mario Rossi', 'Mario Bianchi', 'Mario Neri', 'Mario Verde', 'Mario Blu',
-                 'Giuseppe Rossi', 'Giuseppe Bianchi', 'Giuseppe Neri', 'Giuseppe Blu'}
+lista_persone = ['Mario Rossi', 'Mario Bianchi', 'Mario Neri', 'Mario Verde', 'Mario Blu',
+                 'Giuseppe Rossi', 'Giuseppe Bianchi', 'Giuseppe Neri', 'Giuseppe Blu']
 f = open('file_esempio.txt', 'w')
-print(f)
 for value in lista_persone:
     f.write(value)
     f.write('\n')
@@ -29,7 +28,7 @@ print(righe_di_testo[1])
 print(righe_di_testo[2])
 
 if not os.path.exists('dir_esempio'):
-    os.system('mkdir 0777 dir_esempio')
+    os.system('mkdir dir_esempio')
 
 f = open('dir_esempio/file_esempio2.txt', 'w')
 f.write('Mario Ultimo')

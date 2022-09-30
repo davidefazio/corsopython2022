@@ -5,6 +5,7 @@
 
 from random import randrange
 
+
 def morra(mossa1, mossa2):
     risultato = -1
     if mossa1 == mossa2 and (mossa1 == 1 or mossa1 == 2 or mossa1 == 3):

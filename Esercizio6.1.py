@@ -5,6 +5,7 @@
 # Creo una lista
 lista_voti = [24, 22, 30, 18, 25]
 
+# aggiungo un elemento alla lista
 lista_voti.append(28)
 
 # Creo una tupla

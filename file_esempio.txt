@@ -1,10 +1,10 @@
 Mario Rossi
-Giuseppe Rossi
-Giuseppe Blu
-Mario Blu
-Giuseppe Bianchi
-Giuseppe Neri
-Mario Verde
 Mario Bianchi
 Mario Neri
+Mario Verde
+Mario Blu
+Giuseppe Rossi
+Giuseppe Bianchi
+Giuseppe Neri
+Giuseppe Blu
 Mario Ultimo
