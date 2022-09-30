@@ -22,8 +22,11 @@ numero_giocatori = 0
 # Chiedere numero giocatori
 try:
     numero_giocatori = int(input('Inserisci il numero di giorcatori (1 o 2): '))
-except:
+    if numero_giocatori == 0 or numero_giocatori > 2:
+        raise ValueError('Incorrect data')
+except ValueError:
     print("Numero giocatori non valido")
+    exit()
 
 mossa_giocatore1 = 0
 mossa_giocatore2 = 0
@@ -33,14 +36,16 @@ if numero_giocatori == 2:
         print('Fate le vostre giocate (1: Carta, 2: Forbice, 3: Sasso')
         mossa_giocatore1 = int(input('Giocatore 1: '))
         mossa_giocatore2 = int(input('Giocatore 2: '))
-    except:
+    except ValueError:
         print("Gioocata non valida")
+        exit()
 else:
     try:
         print('Fai la tua giocata (1: Carta, 2: Forbice, 3: Sasso')
         mossa_giocatore1 = int(input('Giocatore 1: '))
-    except:
+    except ValueError:
         print("Giocata non valida")
+        exit()
 
     # random da 1 a 3
     mossa_giocatore2 = randrange(1, 4)
