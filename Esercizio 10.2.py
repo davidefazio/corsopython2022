@@ -75,7 +75,7 @@ logger.debug('inizio simulazione')
 mia_ricaricabile = CartaRicaricabile(logger)
 # movimento la carta con valori casuali
 i = 0
-while i <= 8:
+while i <= 15:
     valore_casuale = random.randint(-1000, 1000)
     print('Valore casuale:', valore_casuale)
     result = 0
