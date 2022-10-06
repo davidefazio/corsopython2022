@@ -1,0 +1,135 @@
+2022-10-06 16:10:18,190 inizio simulazione
+2022-10-06 16:10:18,190 inizializzata carta ricaricabile
+2022-10-06 16:10:18,190 richiamata versamento
+2022-10-06 16:10:18,190 registrato versamento di 894
+2022-10-06 16:10:18,190 richiamata versamento
+2022-10-06 16:10:18,190 richiamata print_saldo
+2022-10-06 16:10:18,190 stampato il saldo 894
+2022-10-06 16:10:18,190 Versamento non effettuabile. Il versamento di 978 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,190 richiamata versamento
+2022-10-06 16:10:18,190 richiamata print_saldo
+2022-10-06 16:10:18,190 stampato il saldo 894
+2022-10-06 16:10:18,190 Versamento non effettuabile. Il versamento di 384 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,190 richiamata prelievo
+2022-10-06 16:10:18,190 registrato prelievo di 376
+2022-10-06 16:10:18,190 richiamata prelievo
+2022-10-06 16:10:18,190 Prelievo non effettuabile. Il tuo saldo (518) non è sufficiente ad effettuare il prelievo di 578
+2022-10-06 16:10:18,190 richiamata prelievo
+2022-10-06 16:10:18,190 registrato prelievo di 290
+2022-10-06 16:10:18,190 richiamata versamento
+2022-10-06 16:10:18,190 registrato versamento di 560
+2022-10-06 16:10:18,190 richiamata versamento
+2022-10-06 16:10:18,190 richiamata print_saldo
+2022-10-06 16:10:18,190 stampato il saldo 788
+2022-10-06 16:10:18,190 Versamento non effettuabile. Il versamento di 309 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,190 richiamata prelievo
+2022-10-06 16:10:18,190 registrato prelievo di 618
+2022-10-06 16:10:18,190 richiamata prelievo
+2022-10-06 16:10:18,190 Prelievo non effettuabile. Il tuo saldo (170) non è sufficiente ad effettuare il prelievo di 856
+2022-10-06 16:10:18,190 richiamata versamento
+2022-10-06 16:10:18,190 registrato versamento di 710
+2022-10-06 16:10:18,190 richiamata versamento
+2022-10-06 16:10:18,191 richiamata print_saldo
+2022-10-06 16:10:18,191 stampato il saldo 880
+2022-10-06 16:10:18,191 Versamento non effettuabile. Il versamento di 830 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 richiamata print_saldo
+2022-10-06 16:10:18,191 stampato il saldo 880
+2022-10-06 16:10:18,191 Versamento non effettuabile. Il versamento di 968 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 registrato prelievo di 574
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 Prelievo non effettuabile. Il tuo saldo (306) non è sufficiente ad effettuare il prelievo di 679
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 richiamata print_saldo
+2022-10-06 16:10:18,191 stampato il saldo 306
+2022-10-06 16:10:18,191 Versamento non effettuabile. Il versamento di 748 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 Prelievo non effettuabile. Il tuo saldo (306) non è sufficiente ad effettuare il prelievo di 957
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 registrato versamento di 1
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 richiamata print_saldo
+2022-10-06 16:10:18,191 stampato il saldo 307
+2022-10-06 16:10:18,191 Versamento non effettuabile. Il versamento di 876 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 richiamata print_saldo
+2022-10-06 16:10:18,191 stampato il saldo 307
+2022-10-06 16:10:18,191 Versamento non effettuabile. Il versamento di 834 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 registrato versamento di 11
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 registrato prelievo di 221
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 Prelievo non effettuabile. Il tuo saldo (97) non è sufficiente ad effettuare il prelievo di 708
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 Prelievo non effettuabile. Il tuo saldo (97) non è sufficiente ad effettuare il prelievo di 602
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 Prelievo non effettuabile. Il tuo saldo (97) non è sufficiente ad effettuare il prelievo di 192
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 registrato versamento di 489
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 richiamata print_saldo
+2022-10-06 16:10:18,191 stampato il saldo 586
+2022-10-06 16:10:18,191 Versamento non effettuabile. Il versamento di 540 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 registrato prelievo di 498
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 Prelievo non effettuabile. Il tuo saldo (88) non è sufficiente ad effettuare il prelievo di 389
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 registrato versamento di 166
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 Prelievo non effettuabile. Il tuo saldo (254) non è sufficiente ad effettuare il prelievo di 594
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 registrato versamento di 703
+2022-10-06 16:10:18,191 richiamata prelievo
+2022-10-06 16:10:18,191 Prelievo non effettuabile. Il tuo saldo (957) non è sufficiente ad effettuare il prelievo di 992
+2022-10-06 16:10:18,191 richiamata versamento
+2022-10-06 16:10:18,191 richiamata print_saldo
+2022-10-06 16:10:18,192 stampato il saldo 957
+2022-10-06 16:10:18,192 Versamento non effettuabile. Il versamento di 791 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,192 richiamata prelievo
+2022-10-06 16:10:18,192 registrato prelievo di 855
+2022-10-06 16:10:18,192 richiamata prelievo
+2022-10-06 16:10:18,192 Prelievo non effettuabile. Il tuo saldo (102) non è sufficiente ad effettuare il prelievo di 174
+2022-10-06 16:10:18,192 richiamata versamento
+2022-10-06 16:10:18,192 registrato versamento di 130
+2022-10-06 16:10:18,192 richiamata prelievo
+2022-10-06 16:10:18,192 Prelievo non effettuabile. Il tuo saldo (232) non è sufficiente ad effettuare il prelievo di 601
+2022-10-06 16:10:18,192 richiamata versamento
+2022-10-06 16:10:18,192 richiamata print_saldo
+2022-10-06 16:10:18,192 stampato il saldo 232
+2022-10-06 16:10:18,192 Versamento non effettuabile. Il versamento di 801 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,192 richiamata versamento
+2022-10-06 16:10:18,192 richiamata print_saldo
+2022-10-06 16:10:18,192 stampato il saldo 232
+2022-10-06 16:10:18,192 Versamento non effettuabile. Il versamento di 999 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,192 richiamata versamento
+2022-10-06 16:10:18,192 registrato versamento di 233
+2022-10-06 16:10:18,192 richiamata versamento
+2022-10-06 16:10:18,192 richiamata print_saldo
+2022-10-06 16:10:18,192 stampato il saldo 465
+2022-10-06 16:10:18,192 Versamento non effettuabile. Il versamento di 691 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,192 richiamata versamento
+2022-10-06 16:10:18,192 registrato versamento di 333
+2022-10-06 16:10:18,192 richiamata versamento
+2022-10-06 16:10:18,192 richiamata print_saldo
+2022-10-06 16:10:18,192 stampato il saldo 798
+2022-10-06 16:10:18,192 Versamento non effettuabile. Il versamento di 755 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,192 richiamata versamento
+2022-10-06 16:10:18,192 richiamata print_saldo
+2022-10-06 16:10:18,192 stampato il saldo 798
+2022-10-06 16:10:18,192 Versamento non effettuabile. Il versamento di 327 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,192 richiamata versamento
+2022-10-06 16:10:18,192 richiamata print_saldo
+2022-10-06 16:10:18,192 stampato il saldo 798
+2022-10-06 16:10:18,192 Versamento non effettuabile. Il versamento di 501 non può essere effettuato perché supererebbe il massimale (1000)
+2022-10-06 16:10:18,192 richiamata prelievo
+2022-10-06 16:10:18,192 registrato prelievo di 164
+2022-10-06 16:10:18,192 richiamata prelievo
+2022-10-06 16:10:18,192 registrato prelievo di 203
+2022-10-06 16:10:18,192 richiamata print_saldo
+2022-10-06 16:10:18,192 stampato il saldo 431
+2022-10-06 16:10:18,192 richiamata print_lista_ultimi_10_movimenti
+2022-10-06 16:10:18,192 richiamata get_lista_ultimi_10_movimenti
+2022-10-06 16:10:18,192 fine simulazione
