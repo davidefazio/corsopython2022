@@ -8,13 +8,10 @@
 # Scrivere un programma iterativo per il problema di Fibonacci
 
 def fibonacci_iter(numero):
-    result = 0
-    if numero > 0:
-        a, b = 0, 1
-        for i in range(numero - 1):
-            a, b = b, a+b
-        result = b
-    return result
+    a, b = 0, 1
+    for i in range(numero):
+        a, b = b, a + b
+    return a
 
 
 n = -1
